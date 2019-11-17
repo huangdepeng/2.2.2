@@ -23,6 +23,18 @@ enum hicbitRGBColors {
     White = 9
 }
 
+
+enum hicbitLight {
+    //% block="Light 1"
+    Light1 = 0x00,
+    //% block="Light 2"
+    Light2 = 0x01,
+    //% block="Light 3"
+    Light3 = 0x02,
+    //% block="All"
+     All = 0x03
+}
+
  enum hicbitLights {
     //% block="Light 1"
     Light1 = 0x00,

@@ -1,14 +1,13 @@
-# HicBit
+# hicbit
 
-null
-
+Blocks for HicRobot HicBit
 ## License
 
-TIM
+MIT
 
 ## Supported targets
 
-* for PXT/microbit
+* for PXT/hicbit
 (The metadata above is needed for package search.)
 
- HicBit0.0.2
+

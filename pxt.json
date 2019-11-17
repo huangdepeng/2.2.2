@@ -1,27 +1,21 @@
 {
-    "name": "HicBit",
-    "version": "0.5.3",
-    "description": "My translated HicBit extension",
-    "license": "TIM",
+    "name": "hicbit",
+    "version": "0.0.1",
+    "description": "Blocks for HicRobot HicBit",
+    "license": "MIT",
     "dependencies": {
         "core": "*"
     },
     "files": [
         "README.md",
-        "hicbit.ts",
+        "main.ts",
         "hicbitRGBLight.ts",
         "sendbuffer.asm",
-        "_locales/zh/HicBit-strings.json",
-        "_locales/zh/HicBit-jsdoc-strings.json"
+        "_locales/zh/hicbit-strings.json",
+        "_locales/zh/hicbit-jsdoc-strings.json"
     ],
-    "yotta": {
-        "config": {
-            "microbit-dal": {
-                "bluetooth": {
-                    "enabled": 0
-                }
-            }
-        }
-    },
+    "testFiles": [
+        "test.ts"
+    ],
     "public": true
 }
